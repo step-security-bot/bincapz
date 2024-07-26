@@ -24,3 +24,13 @@ updates:
         update-types:
           - "minor"
           - "patch"
+
+  - package-ecosystem: npm
+    directory: /samples/NPM/2024.legacyreact-aws-s3-typescript
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /samples/TypeScript/2021.CursedGrabber.an0n-chat-lib
+    schedule:
+      interval: daily
